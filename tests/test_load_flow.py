@@ -1,6 +1,6 @@
 import numpy as np
 
-from relsad.loadflow.ac import run_bfs_load_flow
+from relsad.loadflow.ac import run_bfs_load_flow, test
 from relsad.network.components import (
     Battery,
     Bus,
@@ -20,6 +20,8 @@ from relsad.network.systems import (
 )
 from relsad.Time import Time, TimeUnit
 from relsad.utils import eq
+
+test()
 
 
 def initialize_network():
