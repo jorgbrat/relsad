@@ -6,6 +6,9 @@ from relsad.topology.load_flow.bfs import (
     is_cyclic,
 )
 
+def test():
+    pass
+
 
 def run_bfs_load_flow(network: PowerNetwork, maxit: int = 5):
     """
